@@ -1,0 +1,1 @@
+../google-replace-with-original-links/index.js
