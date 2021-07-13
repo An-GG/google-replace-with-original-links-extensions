@@ -20,7 +20,7 @@
 		79785A44269DFCB800C632CA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 79785A43269DFCB800C632CA /* popup.html */; };
 		79785A46269DFCB800C632CA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 79785A45269DFCB800C632CA /* popup.css */; };
 		79785A48269DFCB800C632CA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 79785A47269DFCB800C632CA /* popup.js */; };
-		79785A55269DFDDF00C632CA /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 79785A54269DFDDE00C632CA /* index.js */; };
+		79A8EDFC269E0ADC006795FA /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 79A8EDFB269E0ADC006795FA /* index.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		79785A47269DFCB800C632CA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		79785A49269DFCB800C632CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79785A4A269DFCB800C632CA /* safari_google_replace_with_original_links_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_google_replace_with_original_links_Extension.entitlements; sourceTree = "<group>"; };
-		79785A54269DFDDE00C632CA /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = ../../../../index.js; sourceTree = "<group>"; };
+		79A8EDFB269E0ADC006795FA /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = "../../../google-replace-with-original-links/index.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,13 +142,13 @@
 		79785A38269DFCB800C632CA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79A8EDFB269E0ADC006795FA /* index.js */,
 				79785A39269DFCB800C632CA /* _locales */,
 				79785A3B269DFCB800C632CA /* images */,
 				79785A3D269DFCB800C632CA /* manifest.json */,
 				79785A43269DFCB800C632CA /* popup.html */,
 				79785A45269DFCB800C632CA /* popup.css */,
 				79785A47269DFCB800C632CA /* popup.js */,
-				79785A54269DFDDE00C632CA /* index.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,9 +244,9 @@
 			files = (
 				79785A46269DFCB800C632CA /* popup.css in Resources */,
 				79785A44269DFCB800C632CA /* popup.html in Resources */,
-				79785A55269DFDDF00C632CA /* index.js in Resources */,
 				79785A3C269DFCB800C632CA /* images in Resources */,
 				79785A3E269DFCB800C632CA /* manifest.json in Resources */,
+				79A8EDFC269E0ADC006795FA /* index.js in Resources */,
 				79785A3A269DFCB800C632CA /* _locales in Resources */,
 				79785A48269DFCB800C632CA /* popup.js in Resources */,
 			);
